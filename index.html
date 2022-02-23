@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>project</title>
+  <link rel="stylesheet" href="public/css/styles.css">
+  <link rel="stylesheet" href="public/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+
+
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <header>
+    <button onclick="topFunction()" id="myBtn" title="Go to top" class="opacity" style="display: block;">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+    <div class="headertop">
+      <div class="nav1">
+        <nav class="navbar py-5 d-none d-lg-block navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"> <img src="public/images/brand-light-254x54.png" alt=""> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="menu">
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item ">
+                    <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                  </li>
+
+                  <li class="nav-item dropdown ">
+                    <a class="nav-link " href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      ABOUT
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">overviwe</a></li>
+                      <li><a class="dropdown-item" href="#">history</a></li>
+                      <li><a class="dropdown-item" href="#">testimonials</a></li>
+                      <li><a class="dropdown-item" href="#">press</a></li>
+                      <li><a class="dropdown-item" href="#">Faq</a></li>
+                      <li><a class="dropdown-item" href="#">Careers</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown ">
+                    <a class="nav-link " href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      PRODUCTS
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">mixed bouquets</a></li>
+                      <li><a class="dropdown-item" href="#">orchids & exotic flowers</a></li>
+                      <li><a class="dropdown-item" href="#">roses</a></li>
+                      <li><a class="dropdown-item" href="#">tulips</a></li>
+                      <li><a class="dropdown-item" href="#">irises</a></li>
+                      <li><a class="dropdown-item" href="#">sets</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown ">
+                    <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      NEWS
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">single post</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">LOCATIONS</a>
+                  </li>
+                  <li class="nav-item ms-auto">
+                    <a class="nav-link" href="#">PAGES</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="adress">
+              <div class="collapse navbar-collapse" id="navbarSupportedContent2">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item ms-auto">
+                    <a class="nav-link" href="#">
+                      <i class="fas fa-home"></i>
+                      <br>
+                      USA, LOS ANGELES, 901 East E
+                      <br>
+                      Street, Wilmington, CA 90744
+                    </a>
+                  </li>
+                  <li class="nav-item ms-auto">
+                    <a class="nav-link" href="#">
+                      <i class="fas fa-phone-alt"></i>
+                      <br>
+                      +1 (800) 123 1234
+                      <br>
+                      +1 (800) 123 1234
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+
+        </nav>
+      </div>
+    </div>
+    <div class="nav2">
+
+
+      <nav class="navbar p-0 d-lg-none navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  ABOUT
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+
+            </ul>
+
+
+          </div>
+          <a class="navbar-brand ms-auto" href="#"> <img style="width: 75%;" src="public/images/brand-light-254x54.png"
+              alt=""> </a>
+        </div>
+
+      </nav>
+
+    </div>
+    <div class="slide mt-0 ">
+      <div class="slide-img"
+        style="background-image:url(public/images/slider-2-1-1920x737.jpg); background-size: cover; height: 500px;">
+        <div class="slide-text" style="padding-top: 170px;">
+          <h1>INSPIRED BY THE BEAUTY</h1>
+
+          <h3>Of Nature</h3>
+          <br>
+          <br>
+          <a href="#">VIEW PRODUCTS</a>
+        </div>
+
+      </div>
+    </div>
+    <div class="menumain ">
+      <div class="container-fluid mx-1">
+        <div class="row row-30 row-md-50">
+          <div class="col-sm-4 col-flex px-3 py-3">
+            <div class="img img-primary img-clone"
+              style="background-image:url(public/images/bg-image-banner-5.jpg) ; background-size: cover;">
+              <h2 class="banner">
+                Wedding
+                <br>
+
+              </h2>
+              <p class="text-italic text-regular">bouquets</p>
+              <br>
+              <div class="info">
+                <a href="#">more info <span><i class="fas fa-arrow-right"></i></span> </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 col-flex px-3 py-3">
+            <div class="img img-primary img-clone"
+              style="background-image:url(public/images/bg-image-banner-6.jpg) ; background-size: cover;">
+              <h2 class="banner">
+                Professional
+                <br>
+
+              </h2>
+              <p class="text-italic text-regular">decorations</p>
+              <br>
+              <div class="info">
+                <a href="#">more info <span><i class="fas fa-arrow-right"></i></span> </a>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-sm-4  col-flex px-3 py-3">
+            <div class="img img-primary img-clone"
+              style="background-image:url(public/images/bg-image-banner-7.jpg) ; background-size: cover;">
+              <h2 class="banner">
+                Workshop
+                <br>
+              </h2>
+              <p class="text-italic text-regular">on floristics</p>
+              <br>
+              <div class="info">
+                <a href="#">more info <span><i class="fas fa-arrow-right"></i></span> </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mockup-main py-5">
+      <div class="container ">
+        <div class="row row-30">
+          <div class="col-sm-12 col-xl-2">
+            <h1>
+              What We
+              <br>
+              Offer
+            </h1>
+            <p class="pp">about our services</p>
+          </div>
+          <div class="col-sm-12 col-xl-10 number-counter">
+            <div class="row">
+              <div class="col-sm-4">
+                <h4>
+                  <span class="index-counter"></span>
+                  Wedding Bouquets
+                </h4>
+                <p>
+                  We understand your day is very special, and we offer a very personalized service for your most
+                  important event. We custom make beautiful wedding flowers, bridal bouquets and bridesmaid bouquets,
+                  the groom’s boutonniere’s, and any bouquets for your wedding.
+                </p>
+              </div>
+              <div class="col-sm-4">
+                <h4>
+                  <span class="index-counter"></span>
+                  Wedding Bouquets
+                </h4>
+                <p>
+                  We understand your day is very special, and we offer a very personalized service for your most
+                  important event. We custom make beautiful wedding flowers, bridal bouquets and bridesmaid bouquets,
+                  the groom’s boutonniere’s, and any bouquets for your wedding.
+                </p>
+              </div>
+              <div class="col-sm-4">
+                <h4>
+                  <span class="index-counter"></span>
+                  Wedding Bouquets
+                </h4>
+                <p>
+                  We understand your day is very special, and we offer a very personalized service for your most
+                  important event. We custom make beautiful wedding flowers, bridal bouquets and bridesmaid bouquets,
+                  the groom’s boutonniere’s, and any bouquets for your wedding.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel py-5">
+      <div class="container">
+        <h2 class="font-weight-light py-3" style="text-align: center; color: #05285e;">Featured Products</h2>
+        <div class="row mx-auto my-auto justify-content-center">
+          <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel" style="height: 500px;">
+            <div class="carousel-inner" role="listbox">
+              <div class="carousel-item active">
+                <div class="col-md-3">
+                  <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="public/images/product-category-10-270x233.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <a href="#" class="card-title" style="text-decoration: none;">
+                        <h6>Serenity</h6>
+                      </a>
+                      <p class="card-text" style="color: #9da2ab;">A colorful combination of different roses makes this
+                        bouquet look stunning.</p>
+                      <p class="price">$25.90</p>
+                      <a class="button-link" href="#" style="text-decoration: none;">BUY ON AMAZON</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-md-3">
+                  <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="public/images/product-category-11-270x233.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <a href="#" class="card-title" style="text-decoration: none;">
+                        <h6>Cinnamon Cider Roses</h6>
+                      </a>
+                      <p class="card-text" style="color: #9da2ab;">Warm, spicy and comforting, this rich bouquet is
+                        unique and bold in color.</p>
+                      <p class="price">$17.80</p>
+                      <a class="button-link" href="#" style="text-decoration: none;">BUY ON AMAZON</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-md-3">
+                  <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="public/images/product-category-12-270x233.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <a href="#" class="card-title" style="text-decoration: none;">
+                        <h6>All The Frills</h6>
+                      </a>
+                      <p class="card-text" style="color: #9da2ab;">This is a sophisticated combination of multi-hued
+                        flowers for true summer fans.</p>
+                      <p class="price">$25.90</p>
+                      <a class="button-link" href="#" style="text-decoration: none;">BUY ON AMAZON</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-md-3">
+                  <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="public/images/product-category-13-270x233.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <a href="#" class="card-title" style="text-decoration: none;">
+                        <h6>Deluxe Hugs and Kisses</h6>
+                      </a>
+                      <p class="card-text" style="color: #9da2ab;">One of our most popular bouquets, it captures the
+                        many moods of the heart.</p>
+                      <p class="price">$25.90</p>
+                      <a class="button-link" href="#" style="text-decoration: none;">BUY ON AMAZON</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-md-3">
+                  <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="public/images/product-category-14-270x233.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <a href="#" class="card-title"
+                        style="color: #05285e; text-decoration: none; font-weight: 700 !important;">
+                        <h6>Pink Sapphire</h6>
+                      </a>
+                      <p class="card-text" style="color: #9da2ab;">Feel the glory of pink color with this wonderful pink
+                        & white floral combination.</p>
+                      <p class="price">$25.90</p>
+                      <a class="button-link" href="#" style="text-decoration: none;">BUY ON AMAZON</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-md-3">
+                  <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="public/images/product-category-15-270x233.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <a href="#" class="card-title"
+                        style="color: #05285e; text-decoration: none; font-weight: 700 !important;">
+                        <h6>Autumn Harvest Bouquet</h6>
+                      </a>
+                      <p class="card-text" style="color: #9da2ab;">Celebrate the fall with our selection of the best
+                        autumn flowers in this bouquet.</p>
+                      <p class="price">$25.90</p>
+                      <a class="button-link" href="#" style="text-decoration: none;">BUY ON AMAZON</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-md-3">
+                  <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="public/images/product-category-10-270x233.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <a href="#" class="card-title"
+                        style="color: #05285e; text-decoration: none; font-weight: 700 !important;">
+                        <h6>Serenity</h6>
+                      </a>
+                      <p class="card-text" style="color: #9da2ab;">A colorful combination of different roses makes this
+                        bouquet look stunning.</p>
+                      <p class="price">$25.90</p>
+                      <a class="button-link" href="#" style="text-decoration: none;">BUY ON AMAZON</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-md-3">
+                  <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="public/images/product-category-11-270x233.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <a href="#" class="card-title"
+                        style="color: #05285e; text-decoration: none; font-weight: 700 !important;">
+                        <h6>Cinnamon Cider Roses</h6>
+                      </a>
+                      <p class="card-text" style="color: #9da2ab;">Warm, spicy and comforting, this rich bouquet is
+                        unique and bold in color.</p>
+                      <p class="price">$25.90</p>
+                      <a class="button-link" href="#" style="text-decoration: none;">BUY ON AMAZON</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev bg-transparent w-aut" style="width: 0px;" href="#recipeCarousel"
+              role="button" data-bs-slide="prev">
+              <span aria-hidden="true"><i class="fas fa-arrow-left arrow1"></i></span>
+            </a>
+            <a class="carousel-control-next bg-transparent w-aut " style="width: 0px;" href="#recipeCarousel"
+              role="button" data-bs-slide="next">
+              <span aria-hidden="true"><i class="fas fa-arrow-right arrow1"></i></span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="lifestyle py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-xl-6 d-none d-sm-block "
+            style="background-image:url(public/images/bg-image-11.jpg) ;background-position: center; background-size:cover;padding-top: 120px; padding-bottom: 120px;">
+
+          </div>
+          <div class="col-sm-12 col-xl-6  bg-mask"
+            style="background-image:url(public/images/bg-image-12.jpg) ; background-position: center;background-size: cover;padding-top: 120px; padding-bottom: 120px;">
+            <div class="shell">
+              <h2>
+                Wonderful Gifts
+                <br>
+                <span class="title ps-0"> from</span> Flower Boutique
+              </h2>
+              <p>
+                Flowers are great gifts and the ones ordered at
+                <br>
+                our shop are truly wonderful. Here’s what we offer:
+              </p>
+              <div class="link-offer">
+                <a href="#">Bouquets & Compositions <i class="fas fa-arrow-right"></i></a>
+                <br>
+                <a href="#">Flowers in Boxes <i class="fas fa-arrow-right"></i></a>
+                <br>
+                <a href="#">Indoor Flowers <i class="fas fa-arrow-right"></i></a>
+                <br>
+                <a href="#">Decorations with Balloons <i class="fas fa-arrow-right"></i></a>
+                <br>
+                <a href="#">Workshops on Floristics <i class="fas fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-xl-7 "
+            style="background-image:url(public/images/bg-image-13.jpg) ; background-size: cover; padding-top: 100px; padding-bottom: 100px;">
+            <div class="date">
+              <div class="container">
+                <div class="row open-post">
+                  <h1>Latest From The Blog</h1>
+                  <p>floral news & events</p>
+                </div>
+                <div class="row">
+                  <div class="col-sm-6 py-2">
+                    <div class="post-event">
+                      <a class="head-box" href="single-post.html">
+                        <div class="daymonth">
+                          <div class="month">March</div>
+                          <h2 class="day">28</h2>
+                        </div>
+                        <h5 class="title">10 Mind-Blowing Flower Facts!</h5>
+                      </a>
+                      <div class="contentin">
+                        <p>Some of you may already know and others you may just learn about today, either way, you can
+                          never know enough fun flower facts. Not only do flowers offer us visual and emotional...</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 py-2">
+                    <div class="post-event">
+                      <a class="head-box" href="single-post.html">
+                        <div class="daymonth">
+                          <div class="month">March</div>
+                          <h2 class="day">28</h2>
+                        </div>
+                        <h5 class="title">10 Mind-Blowing Flower Facts!</h5>
+                      </a>
+                      <div class="contentin">
+                        <p>Some of you may already know and others you may just learn about today, either way, you can
+                          never know enough fun flower facts. Not only do flowers offer us visual and emotional...</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row py-5">
+                  <div class="blog">
+                    <a href="#"> VISIT OUR BLOG</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-xl-5"
+            style="background-image:url(public/images/bg-image-14.jpg) ; background-position: center; background-size: cover; padding-top: 100px; padding-bottom: 100px;">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-7 col-xl-7 col-sm-preffix-1 ps-5">
+                  <div class="mockuptop">
+                    <h1>Testimonials</h1>
+                    <p>what our clients say</p>
+                  </div>
+
+                  <div class="mockup py-2">
+                    <div class="icon-quote pe-3"><i class="fas fa-quote-left"></i></div>
+                    <div class="text-mall py-2">
+                      <p>Thank you for your prompt attention. My family already called to tell me that, once again,
+                        Flower Boutique has done an outstanding job. I use your services often and we will recommend
+                        you.
+                      </p>
+                      <h6>
+                        Linda Johnson
+                        <br>
+                        (housewife)
+                      </h6>
+                    </div>
+                  </div>
+                  <div class="mockup">
+                    <div class="icon-quote pe-3"><i class="fas fa-quote-left"></i></div>
+                    <div class="text-mall py-2">
+                      <p>Thank you for your prompt attention. My family already called to tell me that, once again,
+                        Flower Boutique has done an outstanding job. I use your services often and we will recommend
+                        you.
+                      </p>
+                      <h6>
+                        Linda Johnson
+                        <br>
+                        (housewife)
+                      </h6>
+                    </div>
+                  </div>
+                  <div class="mockup">
+                    <div class="icon-quote pe-3"><i class="fas fa-quote-left"></i></div>
+                    <div class="text-mall py-2">
+                      <p>Thank you for your prompt attention. My family already called to tell me that, once again,
+                        Flower Boutique has done an outstanding job. I use your services often and we will recommend
+                        you.
+                      </p>
+                      <h6>
+                        Linda Johnson
+                        <br>
+                        (housewife)
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.4719898203075!2d106.75768541462317!3d10.851660492270515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317527e9d1f78727%3A0xd942ff19a56d1de4!2zQ2FvIMSR4bqzbmcgQ8O0bmcgTmdo4buHIFRo4bunIMSQ4bupYyAtIGPhu5VuZyBDaMawxqFuZyBExrDGoW5n!5e0!3m2!1svi!2s!4v1623467388006!5m2!1svi!2s"
+        class="mapp" width="1510" height="455" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <div class="topfooter">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-sm-2 col-xs-6 ">
+            <div class="list">
+              <ul style="list-style: none;">
+                <li>
+                  <a class="btn-link" href="#">NEWS & EVENTS</a>
+                </li>
+                <li>
+                  <a class="btn-link" href="#">TERMS & CONDITIONS</a>
+                </li>
+                <li>
+                  <a class="btn-link" href="#">PRIVACY POLICY</a>
+                </li>
+                <li>
+                  <a class="btn-link" href="#">RETURN POLICY</a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+          <div class="col-sm-2 col-xs-6  ">
+            <div class="list">
+              <ul style="list-style: none;">
+                <li>
+                  <a class="btn-link" href="#">ABOUT US</a>
+                </li>
+                <li>
+                  <a class="btn-link" href="#">NEWS</a>
+                </li>
+                <li>
+                  <a class="btn-link" href="#">PRODUCTS</a>
+                </li>
+                <li>
+                  <a class="btn-link" href="#">TESTIMONIALS</a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+          <div class="col-sm-2 bgadd">
+            <ul style="list-style: none;">
+              <li>
+                <h6>ADDRESS</h6>
+                <p>
+                  USA, LOS ANGELES,
+                  <br>
+                  901 East E Street,
+                  <br>
+                  Wilmington, CA 90744
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-3">
+            <ul style="list-style: none;">
+              <li>
+                <h6>PHONES & E-MAIL</h6>
+                <p>
+                <div class="phone">
+                  <a href="#">+1 (800) 123 1234</a>,
+                  <a href="#">+1 (800) 123 1234</a>
+                </div>
+
+                <br>
+
+                <div class="list">E-mail:<a href="#">mail@demolink.org</a></div>
+
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-3">
+            <h6>NEWSLETTER</h6>
+            <div class="form">
+              <div class="flex-custom-wrap">
+                <!-- RD Mailform-->
+                <form>
+                  <div class="form-group">
+                    <input type="email" class="form-control" id="exampleInputEmail1"
+                      placeholder="info@demolink.org">
+                    <button class="button" type="submit"><i class="fas fa-envelope"></i></button>
+                  </div>
+                </form>
+                <ul class="list-inline list-inline-sm nowrap">
+                  <li><a><i class="fab fa-facebook-f"></i></a></li>
+                  <li><a><i class="fab fa-google-plus-g"></i></a></li>
+                  <li><a><i class="fab fa-linkedin-in"></i></a></li>
+                  <li><a><i class="fab fa-twitter"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </header>
+  <script src="public/js/bootstrap.bundle.min.js"></script>
+  <script src="public/js/javascrip.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,472 @@
+@media  screen and (max-width: 800px) {
+    .carousel-item{
+    
+        height: 20rem;
+        background-repeat: no-repeat;
+        background-position: right;
+       background-size: cover; 
+    }
+  }
+.carousel-item{
+    
+    height: 53rem;
+    background-repeat: no-repeat;
+    background-position: right;
+   background-size: cover; 
+}
+.container.carousel{
+    position: absolute;
+    bottom: 0;
+    top: 50%;
+    left: 10%;
+}
+.menu a{
+    padding: 11px 15px !important;
+    color: #05285e !important;
+   font-family:  Georgia, "Times New Roman", Times, serif;
+   text-transform: uppercase;
+   font-weight: 700;
+   font-size: 15px;
+}
+
+.slide{
+    margin-top: 161.2px;
+}
+.menu a:hover{
+    color:  #fe5c81 !important;
+}
+.menu .active{
+    color:  #fe5c81 !important;
+}
+.adress a{
+    padding: 11px 15px !important;
+    color: #05285e !important;
+   font-family:  Georgia, "Times New Roman", Times, serif;
+   text-transform: uppercase;
+   font-size: 10px;
+   font-weight: 600;
+}
+.adress a:hover{
+    color:  #fe5c81 !important;
+}
+.adress .fas{
+    color: #fe5c81;
+}
+.text{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #05285e !important; 
+    text-align: left !important;
+}
+@media (min-width: 1400px){}
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1500px !important;
+}
+.img-clone{
+    padding: 111px 51px 97px;
+}
+.menumain .banner{
+    font-size: 40px;
+    line-height: 36px;
+    color: #05285e !important;
+}
+.menumain  p{
+    font-size: 24px;
+    padding-top: 10px;
+    color: #58a9dd !important;
+    line-height: 1;
+    font-weight: 400;
+    font-style: italic;
+}
+.info a{
+    color: #fe5c81;
+    text-decoration: none !important;
+}
+
+.list a{
+   color:#05285e !important;
+     text-decoration: none !important;
+     
+     font-weight: 500 !important;
+}
+.list a:hover{
+    color: #9da2ab !important;
+}
+.phone a{
+    color:#9da2ab !important;
+     text-decoration: none !important;
+}
+.phone a:hover{
+    color:#05285e !important;
+}
+.bgadd p{
+    color:#9da2ab !important ;
+}
+.open-post h1{
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: #05285e;
+    text-transform: capitalize;
+}
+.open-post p{
+    color:#9da2ab ;
+    font-style: italic;
+}
+.head-box{
+    padding: 30px 30px 24px 20px;
+    background: #05285e;
+    display: block;
+    position: relative;
+    font-weight: 400;
+  
+}
+.daymonth{
+    position: absolute;
+    padding-right: 20px;
+    
+}
+.title{
+    padding-left:  80px;
+}
+.contentin{
+    background: white;
+    padding: 33px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    line-height: 1.71429;
+    color: #9da2ab;
+    letter-spacing: -0.002em;
+}
+.head-box:hover{
+    background:#9da2ab ;
+    color: white;
+}
+.post-event a{
+    color: white;
+    text-decoration: none !important;
+}
+.blog a{
+    color: white;
+    text-decoration: none !important;
+    padding: 20px;
+    background:#fe5c81;
+}
+.blog a:hover{
+    background: white !important;
+    color: #05285e !important;
+    border: solid #05285e 2px !important;
+}
+.mockuptop h1{
+    color: #05285e !important;
+    line-height: 1.33333;
+    font-size: 30px;
+    margin-bottom: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+.mockuptop p{
+    font-style: italic;
+    color:#9da2ab;
+}
+.mockup p{
+    font-style: italic;
+    color:#9da2ab;
+}
+.text-mall h6{
+    display: inline-block;
+    font-style: normal;
+    color: #05285e !important;
+    font-size: 13px;
+    line-height: 1.2;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.icon-quote{
+    position: absolute;
+    transform: translateX(-100%);
+    line-height: 0.666;
+    color: #05285e;
+    font-weight: bold;
+}
+.number-counter{
+    counter-reset: counter;
+}
+.index-counter{
+    font-size: 36px;
+line-height: 1;
+font-weight: 400;
+display: inline-block;
+color: #aaa;
+padding-right: 6px;
+}   
+.index-counter:before {
+    content: counter(counter, decimal-leading-zero) ".";
+    counter-increment: counter;
+}
+.mockup-main p{
+    color: #05285e;
+    margin-top: 20px;
+    
+}
+@media screen and (max-width: 500px){
+    .mockup-main{
+        text-align: center;
+    }}
+.mockup-main h4{
+    font-size: 21px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 0.025em;
+    font-weight: 700;
+    color: #05285e;
+}
+.mockup-main h1{
+    color: #05285e;
+    line-height: 1.3;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+.mockup-main .pp{
+    color: #9da2ab;
+    font-style: italic;
+}
+
+
+@media screen and (max-width: 500px){
+.bg-mask{
+    flex: 0 0 auto;
+    width: 100%;
+     opacity: 0.5;
+
+}}
+.link-offer a{
+    display: inline-block;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 40px;
+    color: #fe5c81;
+    margin-right: auto;
+    text-decoration: none;
+    transition: .3s;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.shell{
+    padding-left: 100px;
+    
+    
+}
+.shell h2{
+    font-size: 36px;
+    font-weight: 700;
+    color: #05285e;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.shell .title{
+    font-style: italic;
+    font-weight: normal;
+}
+.shell p{
+    font-family: Raleway, Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    max-width: 430px;
+    line-height: 28px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    color: #9da2ab;
+}
+@media screen and (max-width: 500px){
+    .shell{
+        opacity: unset;
+    }}
+
+    @media (max-width: 767px) {
+        .carousel-inner .carousel-item > div {
+            display: none;
+        }
+        .carousel-inner .carousel-item > div:first-child {
+            display: block;
+        }
+    }
+    
+    .carousel-inner .carousel-item.active,
+    .carousel-inner .carousel-item-next,
+    .carousel-inner .carousel-item-prev {
+        display: flex;
+    }
+    
+    /* medium and up screens */
+    @media (min-width: 768px) {
+        
+        .carousel-inner .carousel-item-end.active,
+        .carousel-inner .carousel-item-next {
+          transform: translateX(25%);
+        }
+        
+        .carousel-inner .carousel-item-start.active, 
+        .carousel-inner .carousel-item-prev {
+          transform: translateX(-25%);
+        }
+    }
+    
+    .carousel-inner .carousel-item-end,
+    .carousel-inner .carousel-item-start { 
+      transform: translateX(0);
+    }
+    .card{
+        border: none !important;
+    }
+    #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    background-color: #05285e;
+    transition: opacity 1s linear;
+    color: white;
+    cursor: pointer;
+    padding: 12px 17px;
+    border-radius: 50%;
+}
+span {
+    transform: all 1s linear;
+}
+span i{
+    transform: 0.5s linear all;
+}
+.info:hover{
+ color: #fe5c81 !important;
+
+}
+span i.hide{
+    opacity: 0;
+    transform: translateX(20px);
+}
+.arrow1{
+    color:#05285e ;
+    font-size: 30px;
+}
+.card-body h6{
+    font-weight: 700 !important;
+    color: #05285e; 
+    text-decoration: none !important;
+    font-size: 15px !important;
+}
+.card-body h6:hover{
+    color: #9da2ab !important;
+}
+.price{
+    font-weight: 700 !important;
+    font-size: 18px;
+    letter-spacing: 0.025em;
+    color: #05285e;
+    padding-bottom: 10px;
+}
+.button-link{
+    color: #fe5c81;
+    font-weight: 500;
+    background-color: #fff;
+    border: #9da2ab solid 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.button-link:hover{
+    color:white ;
+    background-color: #05285e;
+    font-weight: 500;
+    border: none;
+}
+.slide-img{
+    padding-left: 80px;
+    align-items: center;
+}
+.slide-text h1{
+    font-size: 52px;
+    color: #05285e;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.slide-text h3{
+    font-size: 52px;
+    color: #05285e;
+    font-family: initial;
+    
+}
+.slide-text a{
+    color: white;
+    font-weight: 500;
+    background-color: #fe5c81;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+.slide-text a:hover{
+    background-color: white;
+    counter-reset:#05285e !important ;
+    border: #05285e solid 3px;
+}
+@media screen and (max-width: 500px){
+    .slide h1{
+        text-align: center;
+        font-size: 36px;
+    }
+    .slide h3{
+        font-size: 36px;
+    }
+    .slide-img{
+        padding-left: 10px;
+        height: 20rem;
+        background-repeat: no-repeat;
+        background-position: right;
+       background-size: cover; 
+       height: 500px;
+       opacity: 0.5;
+       text-align: center;
+      
+    }
+    .mapp{
+        width: 432px;
+    }
+    
+}
+.form-group button{
+    margin: 0;
+    position: absolute;
+   padding-bottom: 35px !important;
+    right: 25px;
+    padding: 0;
+    transform: translateY(-50%);
+    border: none;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 400;
+    text-align: center;
+    transition: .3s;
+    background: none;
+    color: #fe5c81;
+}
+.list-inline{
+    display: flex;
+}
+.list-inline li{
+    padding-right: 8px;
+    color: #05285e;
+}
+.topfooter h6{
+    color: #05285e;
+}
+#myBtn:hover{
+ background-color: #fe5c81;
+}
+
